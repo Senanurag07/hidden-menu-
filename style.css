@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1202467130/photo/close-up-view-of-workspace-with-stationery-glasses-and-coffee-cup-on-white-table-with-blurred.jpg?s=1024x1024&w=is&k=20&c=oOT3pZUTLav277jaV5P59CsFzEuhr5ESYB1f3slKyIY=);
+}
+body{
+    overflow: hidden;
+}
+
+#main #full{
+    height: 100%;
+   width: 25%;
+   background-color: rgba(98, 88, 88, 0.368);
+   backdrop-filter: blur(30px);
+   padding: 20px;
+   position: absolute;
+   right: -30%;
+   display: flex;
+   justify-content: space-between;
+}
+#full h4{
+font-size: 40px;
+line-height: 100px;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#full i{
+    font-size: 30px;
+}
